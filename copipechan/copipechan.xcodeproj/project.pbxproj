@@ -7,46 +7,50 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8D60073B1A23584000A84840 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D60073A1A23584000A84840 /* AppDelegate.swift */; };
-		8D60073D1A23584000A84840 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D60073C1A23584000A84840 /* ViewController.swift */; };
-		8D6007401A23584000A84840 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D60073E1A23584000A84840 /* Main.storyboard */; };
-		8D6007421A23584000A84840 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D6007411A23584000A84840 /* Images.xcassets */; };
-		8D6007451A23584000A84840 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D6007431A23584000A84840 /* LaunchScreen.xib */; };
-		8D6007511A23584000A84840 /* copipechanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D6007501A23584000A84840 /* copipechanTests.swift */; };
+		8D4ADFFB1A3098FC00ED02DD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D4ADFFA1A3098FC00ED02DD /* main.m */; };
+		8D4ADFFE1A3098FC00ED02DD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D4ADFFD1A3098FC00ED02DD /* AppDelegate.m */; };
+		8D4AE0011A3098FC00ED02DD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D4AE0001A3098FC00ED02DD /* ViewController.m */; };
+		8D4AE0041A3098FC00ED02DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D4AE0021A3098FC00ED02DD /* Main.storyboard */; };
+		8D4AE0061A3098FC00ED02DD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D4AE0051A3098FC00ED02DD /* Images.xcassets */; };
+		8D4AE0091A3098FC00ED02DD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D4AE0071A3098FC00ED02DD /* LaunchScreen.xib */; };
+		8D4AE0151A3098FC00ED02DD /* copipechanTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D4AE0141A3098FC00ED02DD /* copipechanTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		8D60074B1A23584000A84840 /* PBXContainerItemProxy */ = {
+		8D4AE00F1A3098FC00ED02DD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 8D60072D1A23584000A84840 /* Project object */;
+			containerPortal = 8D4ADFED1A3098FB00ED02DD /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 8D6007341A23584000A84840;
+			remoteGlobalIDString = 8D4ADFF41A3098FB00ED02DD;
 			remoteInfo = copipechan;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		8D6007351A23584000A84840 /* copipechan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = copipechan.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		8D6007391A23584000A84840 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8D60073A1A23584000A84840 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8D60073C1A23584000A84840 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		8D60073F1A23584000A84840 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8D6007411A23584000A84840 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		8D6007441A23584000A84840 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		8D60074A1A23584000A84840 /* copipechanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = copipechanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8D60074F1A23584000A84840 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8D6007501A23584000A84840 /* copipechanTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = copipechanTests.swift; sourceTree = "<group>"; };
+		8D4ADFF51A3098FC00ED02DD /* copipechan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = copipechan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D4ADFF91A3098FC00ED02DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D4ADFFA1A3098FC00ED02DD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8D4ADFFC1A3098FC00ED02DD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8D4ADFFD1A3098FC00ED02DD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8D4ADFFF1A3098FC00ED02DD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8D4AE0001A3098FC00ED02DD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8D4AE0031A3098FC00ED02DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8D4AE0051A3098FC00ED02DD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8D4AE0081A3098FC00ED02DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		8D4AE00E1A3098FC00ED02DD /* copipechanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = copipechanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D4AE0131A3098FC00ED02DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D4AE0141A3098FC00ED02DD /* copipechanTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = copipechanTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		8D6007321A23584000A84840 /* Frameworks */ = {
+		8D4ADFF21A3098FB00ED02DD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8D6007471A23584000A84840 /* Frameworks */ = {
+		8D4AE00B1A3098FC00ED02DD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -56,58 +60,61 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		8D60072C1A23584000A84840 = {
+		8D4ADFEC1A3098FB00ED02DD = {
 			isa = PBXGroup;
 			children = (
-				8D6007371A23584000A84840 /* copipechan */,
-				8D60074D1A23584000A84840 /* copipechanTests */,
-				8D6007361A23584000A84840 /* Products */,
+				8D4ADFF71A3098FC00ED02DD /* copipechan */,
+				8D4AE0111A3098FC00ED02DD /* copipechanTests */,
+				8D4ADFF61A3098FC00ED02DD /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		8D6007361A23584000A84840 /* Products */ = {
+		8D4ADFF61A3098FC00ED02DD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8D6007351A23584000A84840 /* copipechan.app */,
-				8D60074A1A23584000A84840 /* copipechanTests.xctest */,
+				8D4ADFF51A3098FC00ED02DD /* copipechan.app */,
+				8D4AE00E1A3098FC00ED02DD /* copipechanTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8D6007371A23584000A84840 /* copipechan */ = {
+		8D4ADFF71A3098FC00ED02DD /* copipechan */ = {
 			isa = PBXGroup;
 			children = (
-				8D60073A1A23584000A84840 /* AppDelegate.swift */,
-				8D60073C1A23584000A84840 /* ViewController.swift */,
-				8D60073E1A23584000A84840 /* Main.storyboard */,
-				8D6007411A23584000A84840 /* Images.xcassets */,
-				8D6007431A23584000A84840 /* LaunchScreen.xib */,
-				8D6007381A23584000A84840 /* Supporting Files */,
+				8D4ADFFC1A3098FC00ED02DD /* AppDelegate.h */,
+				8D4ADFFD1A3098FC00ED02DD /* AppDelegate.m */,
+				8D4ADFFF1A3098FC00ED02DD /* ViewController.h */,
+				8D4AE0001A3098FC00ED02DD /* ViewController.m */,
+				8D4AE0021A3098FC00ED02DD /* Main.storyboard */,
+				8D4AE0051A3098FC00ED02DD /* Images.xcassets */,
+				8D4AE0071A3098FC00ED02DD /* LaunchScreen.xib */,
+				8D4ADFF81A3098FC00ED02DD /* Supporting Files */,
 			);
 			path = copipechan;
 			sourceTree = "<group>";
 		};
-		8D6007381A23584000A84840 /* Supporting Files */ = {
+		8D4ADFF81A3098FC00ED02DD /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				8D6007391A23584000A84840 /* Info.plist */,
+				8D4ADFF91A3098FC00ED02DD /* Info.plist */,
+				8D4ADFFA1A3098FC00ED02DD /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		8D60074D1A23584000A84840 /* copipechanTests */ = {
+		8D4AE0111A3098FC00ED02DD /* copipechanTests */ = {
 			isa = PBXGroup;
 			children = (
-				8D6007501A23584000A84840 /* copipechanTests.swift */,
-				8D60074E1A23584000A84840 /* Supporting Files */,
+				8D4AE0141A3098FC00ED02DD /* copipechanTests.m */,
+				8D4AE0121A3098FC00ED02DD /* Supporting Files */,
 			);
 			path = copipechanTests;
 			sourceTree = "<group>";
 		};
-		8D60074E1A23584000A84840 /* Supporting Files */ = {
+		8D4AE0121A3098FC00ED02DD /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				8D60074F1A23584000A84840 /* Info.plist */,
+				8D4AE0131A3098FC00ED02DD /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -115,13 +122,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8D6007341A23584000A84840 /* copipechan */ = {
+		8D4ADFF41A3098FB00ED02DD /* copipechan */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8D6007541A23584000A84840 /* Build configuration list for PBXNativeTarget "copipechan" */;
+			buildConfigurationList = 8D4AE0181A3098FC00ED02DD /* Build configuration list for PBXNativeTarget "copipechan" */;
 			buildPhases = (
-				8D6007311A23584000A84840 /* Sources */,
-				8D6007321A23584000A84840 /* Frameworks */,
-				8D6007331A23584000A84840 /* Resources */,
+				8D4ADFF11A3098FB00ED02DD /* Sources */,
+				8D4ADFF21A3098FB00ED02DD /* Frameworks */,
+				8D4ADFF31A3098FB00ED02DD /* Resources */,
 			);
 			buildRules = (
 			);
@@ -129,46 +136,46 @@
 			);
 			name = copipechan;
 			productName = copipechan;
-			productReference = 8D6007351A23584000A84840 /* copipechan.app */;
+			productReference = 8D4ADFF51A3098FC00ED02DD /* copipechan.app */;
 			productType = "com.apple.product-type.application";
 		};
-		8D6007491A23584000A84840 /* copipechanTests */ = {
+		8D4AE00D1A3098FC00ED02DD /* copipechanTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8D6007571A23584000A84840 /* Build configuration list for PBXNativeTarget "copipechanTests" */;
+			buildConfigurationList = 8D4AE01B1A3098FC00ED02DD /* Build configuration list for PBXNativeTarget "copipechanTests" */;
 			buildPhases = (
-				8D6007461A23584000A84840 /* Sources */,
-				8D6007471A23584000A84840 /* Frameworks */,
-				8D6007481A23584000A84840 /* Resources */,
+				8D4AE00A1A3098FC00ED02DD /* Sources */,
+				8D4AE00B1A3098FC00ED02DD /* Frameworks */,
+				8D4AE00C1A3098FC00ED02DD /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				8D60074C1A23584000A84840 /* PBXTargetDependency */,
+				8D4AE0101A3098FC00ED02DD /* PBXTargetDependency */,
 			);
 			name = copipechanTests;
 			productName = copipechanTests;
-			productReference = 8D60074A1A23584000A84840 /* copipechanTests.xctest */;
+			productReference = 8D4AE00E1A3098FC00ED02DD /* copipechanTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		8D60072D1A23584000A84840 /* Project object */ = {
+		8D4ADFED1A3098FB00ED02DD /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = yatemmma;
 				TargetAttributes = {
-					8D6007341A23584000A84840 = {
+					8D4ADFF41A3098FB00ED02DD = {
 						CreatedOnToolsVersion = 6.1;
 					};
-					8D6007491A23584000A84840 = {
+					8D4AE00D1A3098FC00ED02DD = {
 						CreatedOnToolsVersion = 6.1;
-						TestTargetID = 8D6007341A23584000A84840;
+						TestTargetID = 8D4ADFF41A3098FB00ED02DD;
 					};
 				};
 			};
-			buildConfigurationList = 8D6007301A23584000A84840 /* Build configuration list for PBXProject "copipechan" */;
+			buildConfigurationList = 8D4ADFF01A3098FB00ED02DD /* Build configuration list for PBXProject "copipechan" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -176,29 +183,29 @@
 				en,
 				Base,
 			);
-			mainGroup = 8D60072C1A23584000A84840;
-			productRefGroup = 8D6007361A23584000A84840 /* Products */;
+			mainGroup = 8D4ADFEC1A3098FB00ED02DD;
+			productRefGroup = 8D4ADFF61A3098FC00ED02DD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8D6007341A23584000A84840 /* copipechan */,
-				8D6007491A23584000A84840 /* copipechanTests */,
+				8D4ADFF41A3098FB00ED02DD /* copipechan */,
+				8D4AE00D1A3098FC00ED02DD /* copipechanTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		8D6007331A23584000A84840 /* Resources */ = {
+		8D4ADFF31A3098FB00ED02DD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D6007401A23584000A84840 /* Main.storyboard in Resources */,
-				8D6007451A23584000A84840 /* LaunchScreen.xib in Resources */,
-				8D6007421A23584000A84840 /* Images.xcassets in Resources */,
+				8D4AE0041A3098FC00ED02DD /* Main.storyboard in Resources */,
+				8D4AE0091A3098FC00ED02DD /* LaunchScreen.xib in Resources */,
+				8D4AE0061A3098FC00ED02DD /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8D6007481A23584000A84840 /* Resources */ = {
+		8D4AE00C1A3098FC00ED02DD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -208,46 +215,47 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		8D6007311A23584000A84840 /* Sources */ = {
+		8D4ADFF11A3098FB00ED02DD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D60073D1A23584000A84840 /* ViewController.swift in Sources */,
-				8D60073B1A23584000A84840 /* AppDelegate.swift in Sources */,
+				8D4AE0011A3098FC00ED02DD /* ViewController.m in Sources */,
+				8D4ADFFE1A3098FC00ED02DD /* AppDelegate.m in Sources */,
+				8D4ADFFB1A3098FC00ED02DD /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8D6007461A23584000A84840 /* Sources */ = {
+		8D4AE00A1A3098FC00ED02DD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D6007511A23584000A84840 /* copipechanTests.swift in Sources */,
+				8D4AE0151A3098FC00ED02DD /* copipechanTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		8D60074C1A23584000A84840 /* PBXTargetDependency */ = {
+		8D4AE0101A3098FC00ED02DD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 8D6007341A23584000A84840 /* copipechan */;
-			targetProxy = 8D60074B1A23584000A84840 /* PBXContainerItemProxy */;
+			target = 8D4ADFF41A3098FB00ED02DD /* copipechan */;
+			targetProxy = 8D4AE00F1A3098FC00ED02DD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		8D60073E1A23584000A84840 /* Main.storyboard */ = {
+		8D4AE0021A3098FC00ED02DD /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				8D60073F1A23584000A84840 /* Base */,
+				8D4AE0031A3098FC00ED02DD /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		8D6007431A23584000A84840 /* LaunchScreen.xib */ = {
+		8D4AE0071A3098FC00ED02DD /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				8D6007441A23584000A84840 /* Base */,
+				8D4AE0081A3098FC00ED02DD /* Base */,
 			);
 			name = LaunchScreen.xib;
 			sourceTree = "<group>";
@@ -255,7 +263,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		8D6007521A23584000A84840 /* Debug */ = {
+		8D4AE0161A3098FC00ED02DD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -289,16 +297,15 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		8D6007531A23584000A84840 /* Release */ = {
+		8D4AE0171A3098FC00ED02DD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -326,7 +333,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -334,27 +341,29 @@
 			};
 			name = Release;
 		};
-		8D6007551A23584000A84840 /* Debug */ = {
+		8D4AE0191A3098FC00ED02DD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = copipechan/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		8D6007561A23584000A84840 /* Release */ = {
+		8D4AE01A1A3098FC00ED02DD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = copipechan/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
-		8D6007581A23584000A84840 /* Debug */ = {
+		8D4AE01C1A3098FC00ED02DD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -373,7 +382,7 @@
 			};
 			name = Debug;
 		};
-		8D6007591A23584000A84840 /* Release */ = {
+		8D4AE01D1A3098FC00ED02DD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -391,32 +400,32 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8D6007301A23584000A84840 /* Build configuration list for PBXProject "copipechan" */ = {
+		8D4ADFF01A3098FB00ED02DD /* Build configuration list for PBXProject "copipechan" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8D6007521A23584000A84840 /* Debug */,
-				8D6007531A23584000A84840 /* Release */,
+				8D4AE0161A3098FC00ED02DD /* Debug */,
+				8D4AE0171A3098FC00ED02DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8D6007541A23584000A84840 /* Build configuration list for PBXNativeTarget "copipechan" */ = {
+		8D4AE0181A3098FC00ED02DD /* Build configuration list for PBXNativeTarget "copipechan" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8D6007551A23584000A84840 /* Debug */,
-				8D6007561A23584000A84840 /* Release */,
+				8D4AE0191A3098FC00ED02DD /* Debug */,
+				8D4AE01A1A3098FC00ED02DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		8D6007571A23584000A84840 /* Build configuration list for PBXNativeTarget "copipechanTests" */ = {
+		8D4AE01B1A3098FC00ED02DD /* Build configuration list for PBXNativeTarget "copipechanTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8D6007581A23584000A84840 /* Debug */,
-				8D6007591A23584000A84840 /* Release */,
+				8D4AE01C1A3098FC00ED02DD /* Debug */,
+				8D4AE01D1A3098FC00ED02DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 8D60072D1A23584000A84840 /* Project object */;
+	rootObject = 8D4ADFED1A3098FB00ED02DD /* Project object */;
 }
