@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  TextViewController.h
 //  copipechan
 //
 //  Created by yatemmma on 2014/12/04.
@@ -8,8 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface TextViewController : UIViewController
 
 @end
 

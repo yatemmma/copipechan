@@ -1,13 +1,30 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="8QQ-9w-Ihb">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Navigation Controller-->
+        <scene sceneID="avr-jA-Cs1">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QLI-vm-crK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <navigationController id="8QQ-9w-Ihb" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="1EM-RU-H3D">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="fUK-nV-FdR"/>
+                    </connections>
+                </navigationController>
+            </objects>
+            <point key="canvasLocation" x="-1008" y="237"/>
+        </scene>
+        <!--Text View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="TextViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -15,11 +32,45 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="eCb-bA-ZdJ">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="JA1-VF-dnc"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="nbR-Uh-Gy5"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="eCb-bA-ZdJ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="7tR-cm-Sm2"/>
+                            <constraint firstAttribute="width" secondItem="eCb-bA-ZdJ" secondAttribute="width" id="VEI-x4-pfB"/>
+                            <constraint firstAttribute="centerY" secondItem="eCb-bA-ZdJ" secondAttribute="centerY" id="eQ1-8y-s1J"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="eCb-bA-ZdJ" secondAttribute="bottom" id="hrc-qp-ZML"/>
+                            <constraint firstAttribute="height" secondItem="eCb-bA-ZdJ" secondAttribute="height" id="qRd-Sm-ijV"/>
+                            <constraint firstAttribute="centerX" secondItem="eCb-bA-ZdJ" secondAttribute="centerX" id="rCz-h5-Ef8"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="7tR-cm-Sm2"/>
+                            </mask>
+                        </variation>
                     </view>
+                    <navigationItem key="navigationItem" id="Xud-7X-W9f">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="8qg-zU-bFX">
+                            <connections>
+                                <action selector="addButtonTouched:" destination="BYZ-38-t0r" id="uVZ-qf-29T"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="tableView" destination="eCb-bA-ZdJ" id="yEQ-WZ-1WH"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-275" y="237"/>
         </scene>
     </scenes>
 </document>
