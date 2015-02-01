@@ -76,7 +76,7 @@
     // TODO: Detail and Delete view.
     NSArray *textList = [[TextManager sharedManager] allText];
     UIAlertView *dialog = [[UIAlertView alloc] initWithTitle:textList[indexPath.row]
-                                                     message:[NSString stringWithFormat:@"%d", indexPath.row]
+                                                     message:[NSString stringWithFormat:@"%@", @(indexPath.row)]
                                                     delegate:self
                                            cancelButtonTitle:@"Cancel"
                                            otherButtonTitles:@"Delete", nil];

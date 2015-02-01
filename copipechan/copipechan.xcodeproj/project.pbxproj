@@ -15,6 +15,11 @@
 		8D4AE0091A3098FC00ED02DD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D4AE0071A3098FC00ED02DD /* LaunchScreen.xib */; };
 		8D4AE0151A3098FC00ED02DD /* copipechanTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D4AE0141A3098FC00ED02DD /* copipechanTests.m */; };
 		8D4AE0201A30A0D000ED02DD /* TextManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D4AE01F1A30A0D000ED02DD /* TextManager.m */; };
+		8D72FA471A7DC9EE00AAFAA3 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D72FA461A7DC9EE00AAFAA3 /* NotificationCenter.framework */; };
+		8D72FA4C1A7DC9EE00AAFAA3 /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D72FA4B1A7DC9EE00AAFAA3 /* TodayViewController.swift */; };
+		8D72FA4E1A7DC9EE00AAFAA3 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D72FA4D1A7DC9EE00AAFAA3 /* MainInterface.storyboard */; };
+		8D72FA511A7DC9EE00AAFAA3 /* copipechan.widget.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 8D72FA441A7DC9EE00AAFAA3 /* copipechan.widget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		8D72FA581A7DE52C00AAFAA3 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D4AE0211A30B93C00ED02DD /* MobileCoreServices.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,7 +30,28 @@
 			remoteGlobalIDString = 8D4ADFF41A3098FB00ED02DD;
 			remoteInfo = copipechan;
 		};
+		8D72FA4F1A7DC9EE00AAFAA3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8D4ADFED1A3098FB00ED02DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D72FA431A7DC9EE00AAFAA3;
+			remoteInfo = copipechan.widget;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8D72FA551A7DC9EE00AAFAA3 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				8D72FA511A7DC9EE00AAFAA3 /* copipechan.widget.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		8D4ADFF51A3098FC00ED02DD /* copipechan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = copipechan.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +70,13 @@
 		8D4AE01E1A30A0D000ED02DD /* TextManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextManager.h; sourceTree = "<group>"; };
 		8D4AE01F1A30A0D000ED02DD /* TextManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextManager.m; sourceTree = "<group>"; };
 		8D4AE0211A30B93C00ED02DD /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		8D72FA441A7DC9EE00AAFAA3 /* copipechan.widget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = copipechan.widget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D72FA461A7DC9EE00AAFAA3 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		8D72FA4A1A7DC9EE00AAFAA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D72FA4B1A7DC9EE00AAFAA3 /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
+		8D72FA4D1A7DC9EE00AAFAA3 /* MainInterface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainInterface.storyboard; sourceTree = "<group>"; };
+		8D72FA561A7DD5A600AAFAA3 /* copipechan.widget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = copipechan.widget.entitlements; sourceTree = "<group>"; };
+		8D72FA571A7DD5B300AAFAA3 /* copipechan.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = copipechan.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,15 +94,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8D72FA411A7DC9EE00AAFAA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D72FA581A7DE52C00AAFAA3 /* MobileCoreServices.framework in Frameworks */,
+				8D72FA471A7DC9EE00AAFAA3 /* NotificationCenter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		8D4ADFEC1A3098FB00ED02DD = {
 			isa = PBXGroup;
 			children = (
-				8D4AE0211A30B93C00ED02DD /* MobileCoreServices.framework */,
 				8D4ADFF71A3098FC00ED02DD /* copipechan */,
 				8D4AE0111A3098FC00ED02DD /* copipechanTests */,
+				8D72FA481A7DC9EE00AAFAA3 /* copipechan.widget */,
+				8D72FA451A7DC9EE00AAFAA3 /* Frameworks */,
 				8D4ADFF61A3098FC00ED02DD /* Products */,
 			);
 			sourceTree = "<group>";
@@ -79,6 +122,7 @@
 			children = (
 				8D4ADFF51A3098FC00ED02DD /* copipechan.app */,
 				8D4AE00E1A3098FC00ED02DD /* copipechanTests.xctest */,
+				8D72FA441A7DC9EE00AAFAA3 /* copipechan.widget.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -86,6 +130,7 @@
 		8D4ADFF71A3098FC00ED02DD /* copipechan */ = {
 			isa = PBXGroup;
 			children = (
+				8D72FA571A7DD5B300AAFAA3 /* copipechan.entitlements */,
 				8D4ADFFC1A3098FC00ED02DD /* AppDelegate.h */,
 				8D4ADFFD1A3098FC00ED02DD /* AppDelegate.m */,
 				8D4AE0021A3098FC00ED02DD /* Main.storyboard */,
@@ -126,6 +171,34 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		8D72FA451A7DC9EE00AAFAA3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8D4AE0211A30B93C00ED02DD /* MobileCoreServices.framework */,
+				8D72FA461A7DC9EE00AAFAA3 /* NotificationCenter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8D72FA481A7DC9EE00AAFAA3 /* copipechan.widget */ = {
+			isa = PBXGroup;
+			children = (
+				8D72FA561A7DD5A600AAFAA3 /* copipechan.widget.entitlements */,
+				8D72FA4B1A7DC9EE00AAFAA3 /* TodayViewController.swift */,
+				8D72FA4D1A7DC9EE00AAFAA3 /* MainInterface.storyboard */,
+				8D72FA491A7DC9EE00AAFAA3 /* Supporting Files */,
+			);
+			path = copipechan.widget;
+			sourceTree = "<group>";
+		};
+		8D72FA491A7DC9EE00AAFAA3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8D72FA4A1A7DC9EE00AAFAA3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -136,10 +209,12 @@
 				8D4ADFF11A3098FB00ED02DD /* Sources */,
 				8D4ADFF21A3098FB00ED02DD /* Frameworks */,
 				8D4ADFF31A3098FB00ED02DD /* Resources */,
+				8D72FA551A7DC9EE00AAFAA3 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				8D72FA501A7DC9EE00AAFAA3 /* PBXTargetDependency */,
 			);
 			name = copipechan;
 			productName = copipechan;
@@ -164,6 +239,23 @@
 			productReference = 8D4AE00E1A3098FC00ED02DD /* copipechanTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		8D72FA431A7DC9EE00AAFAA3 /* copipechan.widget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D72FA541A7DC9EE00AAFAA3 /* Build configuration list for PBXNativeTarget "copipechan.widget" */;
+			buildPhases = (
+				8D72FA401A7DC9EE00AAFAA3 /* Sources */,
+				8D72FA411A7DC9EE00AAFAA3 /* Frameworks */,
+				8D72FA421A7DC9EE00AAFAA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = copipechan.widget;
+			productName = copipechan.widget;
+			productReference = 8D72FA441A7DC9EE00AAFAA3 /* copipechan.widget.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -175,10 +267,25 @@
 				TargetAttributes = {
 					8D4ADFF41A3098FB00ED02DD = {
 						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = N7YKFB824C;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					8D4AE00D1A3098FC00ED02DD = {
 						CreatedOnToolsVersion = 6.1;
 						TestTargetID = 8D4ADFF41A3098FB00ED02DD;
+					};
+					8D72FA431A7DC9EE00AAFAA3 = {
+						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = N7YKFB824C;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -197,6 +304,7 @@
 			targets = (
 				8D4ADFF41A3098FB00ED02DD /* copipechan */,
 				8D4AE00D1A3098FC00ED02DD /* copipechanTests */,
+				8D72FA431A7DC9EE00AAFAA3 /* copipechan.widget */,
 			);
 		};
 /* End PBXProject section */
@@ -216,6 +324,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D72FA421A7DC9EE00AAFAA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D72FA4E1A7DC9EE00AAFAA3 /* MainInterface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,6 +357,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8D72FA401A7DC9EE00AAFAA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D72FA4C1A7DC9EE00AAFAA3 /* TodayViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -248,6 +372,11 @@
 			isa = PBXTargetDependency;
 			target = 8D4ADFF41A3098FB00ED02DD /* copipechan */;
 			targetProxy = 8D4AE00F1A3098FC00ED02DD /* PBXContainerItemProxy */;
+		};
+		8D72FA501A7DC9EE00AAFAA3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8D72FA431A7DC9EE00AAFAA3 /* copipechan.widget */;
+			targetProxy = 8D72FA4F1A7DC9EE00AAFAA3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -353,10 +482,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = copipechan/copipechan.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = copipechan/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -364,10 +498,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = copipechan/copipechan.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = copipechan/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -405,6 +544,41 @@
 			};
 			name = Release;
 		};
+		8D72FA521A7DC9EE00AAFAA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = copipechan.widget/copipechan.widget.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = copipechan.widget/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8D72FA531A7DC9EE00AAFAA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = copipechan.widget/copipechan.widget.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = copipechan.widget/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -424,12 +598,22 @@
 				8D4AE01A1A3098FC00ED02DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8D4AE01B1A3098FC00ED02DD /* Build configuration list for PBXNativeTarget "copipechanTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8D4AE01C1A3098FC00ED02DD /* Debug */,
 				8D4AE01D1A3098FC00ED02DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D72FA541A7DC9EE00AAFAA3 /* Build configuration list for PBXNativeTarget "copipechan.widget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D72FA521A7DC9EE00AAFAA3 /* Debug */,
+				8D72FA531A7DC9EE00AAFAA3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
